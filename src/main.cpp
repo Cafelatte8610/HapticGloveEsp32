@@ -9,8 +9,6 @@ void setup()
   // put your setup code here, to run once:
   Serial.begin(115200);
   delay(100);
-  Serial.printf("%s - run\n", __func__);
-  pinMode(LED_PIN, OUTPUT);
 }
 
 void loop()
